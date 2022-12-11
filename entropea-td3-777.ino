@@ -432,7 +432,7 @@ void loop()
 
   if ( inRange4 )
     {
-    MIDI.sendControlChange(108, cc2, midichan);
+    MIDI.sendControlChange(107, cc2, midichan);
     }
 
   if ( inRange5 )
